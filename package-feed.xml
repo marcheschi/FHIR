@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:fhir="http://hl7.org/fhir/feed" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>InteropEHRate (IEHR) Implementation Guides</title>
-    <link>http://hl7.org/fhir/package-feed.xml</link>
+    <link>https://raw.githubusercontent.com/marcheschi/FHIR/main/package-feed.xml</link>
     <description>New Packages published by InteropEHRate (IEHR)  project</description>
     <language>en</language>
     <managingEditor>paolo.marcheschi@ftgm.it</managingEditor>
     <webMaster>paolo.marcheschi@ftgm.it</webMaster>
     <item>
+      <title>InteropEHRate Cross Border Data Exchange Implementation, Guide Release 1.0.0</title>
+      <pubDate>Wed, 31 Aug 2022 11:03:19 +0200</pubDate>
+      <link>https://build.fhir.org/ig/InteropEHRate-project/cross-border-data-exchange/full-ig.zip</link>
+      <guid isPermaLink="true">https://build.fhir.org/ig/InteropEHRate-project/cross-border-data-exchange/full-ig.zip</guid>
+      <description>
+        <![CDATA[This Implementation Guide is part of the <strong>interopEHRate</strong> project. Details on the project background are available at interopEHRate.eu
+The goal of this Implementation Guide is to specify the HL7 FHIR profiles to exchange data within cross-border medical scenarios defined in the project InteropEHRate (IEHR) and evaluated in project pilot. This includes both administrative and medical information relevant to the pilot. Wherever possible, existing profiles / IGs are used without changing them in order to ensure the highest possible standardization.]]>
+      </description>
+      <dc:creator>interopEHRate</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+    </item>
+    <item>
       <title>interopEHRate Research Data Sharing Implementation Guide 1.0.0 </title>
-      <pubDate>Wed, 31 Aug 2022 12:00:00 GMT</pubDate>
+      <pubDate>Wed, 31 Aug 2022 12:00:00 +0200</pubDate>
       <link>https://build.fhir.org/ig/InteropEHRate-project/research-data-sharing/full-ig.zip</link>
       <guid isPermaLink="true">https://build.fhir.org/ig/InteropEHRate-project/research-data-sharing/full-ig.zip</guid>
-      <description><![CDATA[This Implementation Guide is part of the <strong>interopEHRate</strong> project. Details on the project background are available at interopEHRate.eu he goal of this Implementation Guide (IG) is to specify the HL7 FHIR profiles to represent the content that is exchanged via the research protocol defined in the project interopEHRate and evaluated in project pilot. This IG includes new types of profiles, as no working group deals with the topic of research data sharing in a similar way and based on H17 FHIR R4. Appropriate basic resources such as research studies are used as a basis.]]></description>
+      <description>
+        <![CDATA[This Implementation Guide is part of the <strong>interopEHRate</strong> project. Details on the project background are available at interopEHRate.eu
+The goal of this Implementation Guide (IG) is to specify the HL7 FHIR profiles to represent the content that is exchanged via the research protocol defined in the project interopEHRate and evaluated in project pilot. This IG includes new types of profiles, as no working group deals with the topic of research data sharing in a similar way and based on H17 FHIR R4. Appropriate basic resources such as research studies are used as a basis.]]>
+      </description>
+      <dc:creator>interopEHRate</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
     </item>
   </channel>
 </rss>
